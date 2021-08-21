@@ -1,0 +1,16 @@
+html{
+  background-color: rgb(37, 37, 53);
+  height: auto;
+  overflow: hidden;
+}
+
+.App {
+  background-color: rgb(37, 37, 53);
+  text-align: center;
+  padding: 100px;
+}
+
+.lista{
+  text-align: start;
+}
+

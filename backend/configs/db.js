@@ -1,7 +1,8 @@
 //Import Mongoose
 const mongoose = require("mongoose");
 //Set URI
-const URI = process.env.MONGODB_URI || "mongodb://localhost:27017/enderecos";
+require('dotenv').config()
+const URI = process.env.MONGODB_URI;
 //Store Connection Object
 const db = mongoose.connection;
 //Config Object to Avoid Deprecation Warnings
